@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 //Method that changes the update text TextBox to say alarm off
-                set_alarm_text("Alarm off!");
+                set_alarm_text("Alarm off!");//just gonna say a message saying alarm off
             }
         });
 
