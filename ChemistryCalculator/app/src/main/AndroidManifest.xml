@@ -18,7 +18,6 @@
         </activity>
         <activity android:name=".MolarConcentration" />
         <activity android:name=".gmmToMass" />
-        <activity android:name=".mToMass" />
         <activity android:name=".iHaveForMolarConcentration" />
         <activity android:name=".MolarConcentration2"></activity>
 

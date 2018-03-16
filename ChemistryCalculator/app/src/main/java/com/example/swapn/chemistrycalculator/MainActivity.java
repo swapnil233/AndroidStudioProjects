@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         ////////////////////////////////////////////////////////////////////////////////////////////
         molarConcentration = findViewById(R.id.molarConcentrationTransitionBtn);
         gmmToMass = findViewById(R.id.gmmToMassTransitionBtn);
-        molsToMass = findViewById(R.id.molsToMassTransitionBtn);
         molWeightLink = findViewById(R.id.molWeightLink);
         ////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -43,13 +42,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openActivity3();
-            }
-        });
-
-        molsToMass.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openActivity4();
             }
         });
 
@@ -73,11 +65,6 @@ public class MainActivity extends AppCompatActivity {
     public void openActivity3() {
         Intent openThirdActivity = new Intent (MainActivity.this, gmmToMass.class);
         startActivity(openThirdActivity);
-    }
-
-    public void openActivity4() {
-        Intent openFourthActivity = new Intent (MainActivity.this, mToMass.class);
-        startActivity(openFourthActivity);
     }
 
     //Opens the link to calculate molar mass online
